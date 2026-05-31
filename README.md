@@ -23,5 +23,5 @@ Traditional CVs and PDF portfolios are static and often fail to answer specific 
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/yourusername/waguri-ai.git](https://github.com/yourusername/waguri-ai.git)
+git clone [[https://github.com/yourusername/waguri-ai.git](https://github.com/Pacartopaz/waguri-ai.git)]
 cd waguri-ai
