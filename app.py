@@ -1,11 +1,12 @@
 import streamlit as st
-from engine import WaguriBrain
+import os
 from dotenv import load_dotenv
+
+load_dotenv()
+
+from engine import WaguriBrain
 from gtts import gTTS
 from io import BytesIO
-
-# Memuat kunci rahasia
-load_dotenv()
 
 st.set_page_config(page_title="Waguri AI", page_icon="🌸", layout="centered")
 
@@ -43,17 +44,16 @@ if prompt := st.chat_input("Ketikkan pertanyaanmu di sini..."):
             # 2. Menu Tambahan (Copy & Suara) disembunyikan dalam menu lipat
             with st.expander("🛠️ Opsi: Salin Teks & Dengarkan Suara"):
                 
-                # Fitur Copy (Menggunakan blok markdown Streamlit yang punya tombol copy bawaan)
+                # Fitur Copy
                 st.caption("📝 Salin Jawaban:")
                 st.code(jawaban, language="markdown")
                 
-                # Fitur Suara (TIDAK AUTOPLAY, user harus klik tombol Play)
+                # Fitur Suara (TIDAK AUTOPLAY)
                 st.caption("🔊 Dengarkan Jawaban:")
                 try:
                     tts = gTTS(text=jawaban, lang='id')
                     audio_bytes = BytesIO()
                     tts.write_to_fp(audio_bytes)
-                    # Perhatikan: autoplay=False 
                     st.audio(audio_bytes, format='audio/mp3', autoplay=False)
                 except Exception as e:
                     st.warning("Pita suara Waguri sedang gangguan.")

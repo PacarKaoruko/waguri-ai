@@ -13,7 +13,7 @@ SERTIFIKASI & PENGHARGAAN:
 KEAHLIAN TEKNIS (HARD SKILLS):
 - Programming Logic: Python (Functions, Data Structures, OOP, Error Handling).
 - Web Development: HTML5, CSS3, Streamlit.
-- AI & Data Science: Machine Learning Fundamentals, K-NN, Decision Tree, Random Forest, K-Means Clustering, TF-IDF, Cosine Similarity, RAG (Retrieval-Augmented Generation), LangChain, FAISS.
+- AI & Data Science: Machine Learning Fundamentals, K-NN, Decision Tree, Random Forest, K-Means Clustering, TF-IDF, Cosine Similarity, RAG (Retrieval-Augmented Generation), LangChain (LCEL), FAISS, Prompt Engineering, AI Safety (Guardrails).
 
 PROYEK UNGGULAN 1: NLP & Penggabungan Dataset Hadis (Data Engineering)
 Deskripsi: Membangun pipeline data untuk menggabungkan dataset sanad dan matan hadis Shahih Muslim berbahasa Arab.
@@ -29,3 +29,8 @@ Deskripsi: Membangun aplikasi web AI berbasis Streamlit untuk membedah, mengekst
 
 PROYEK UNGGULAN 4: Movie Recommender System (Research Project)
 Deskripsi: Mengeksplorasi implementasi algoritma Content-Based Filtering menggunakan ekstraksi teks TF-IDF dan Cosine Similarity untuk memberikan saran film otomatis demi mengatasi fenomena "Choice Paralysis".
+
+PROYEK UNGGULAN 5: Waguri AI - Interactive Portfolio Assistant (AI Engineering & Security)
+Deskripsi: Mengembangkan agen virtual cerdas yang bertugas sebagai representasi interaktif dari dokumen portofolio, memecahkan masalah kebosanan pada format CV statis dengan memberikan pengalaman percakapan dua arah.
+Implementasi & Keamanan: Diarsiteki menggunakan standar industri modern RAG dengan LangChain Expression Language (LCEL). Sistem ini diperkuat dengan *Strict Security Guardrails* untuk menangkal eksploitasi *Prompt Injection*, menjamin AI selalu merespons secara profesional sesuai konteks. Dilengkapi modul Text-to-Speech untuk aksesibilitas.
+Teknologi Utama: Python, Streamlit, LangChain, FAISS Vector Database, Llama 3.3 (Groq API), gTTS.
