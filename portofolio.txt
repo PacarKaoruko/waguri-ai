@@ -34,3 +34,8 @@ PROYEK UNGGULAN 5: Waguri AI - Interactive Portfolio Assistant (AI Engineering &
 Deskripsi: Mengembangkan agen virtual cerdas yang bertugas sebagai representasi interaktif dari dokumen portofolio, memecahkan masalah kebosanan pada format CV statis dengan memberikan pengalaman percakapan dua arah.
 Implementasi & Keamanan: Diarsiteki menggunakan standar industri modern RAG dengan LangChain Expression Language (LCEL). Sistem ini diperkuat dengan *Strict Security Guardrails* untuk menangkal eksploitasi *Prompt Injection*, menjamin AI selalu merespons secara profesional sesuai konteks. Dilengkapi modul Text-to-Speech untuk aksesibilitas.
 Teknologi Utama: Python, Streamlit, LangChain, FAISS Vector Database, Llama 3.3 (Groq API), gTTS.
+
+ROADMAP PENGEMBANGAN KE DEPAN (FUTURE WORK):
+Fokus Proyek Selanjutnya: Evolusi Waguri menjadi Otonom AI Agent.
+Visi: Mengembangkan Waguri dari sistem RAG (Retrieval-Augmented Generation) statis menjadi AI Agent yang memiliki otonomi seperti asisten virtual tingkat lanjut.
+Rencana Implementasi: Menggunakan arsitektur LangGraph dan fungsi pemanggilan alat (Tool Calling) agar Waguri dapat berinteraksi dengan API eksternal, melakukan pencarian web secara real-time, dan mengotomatisasi tugas-tugas produktivitas sehari-hari. Proyek ini bertujuan untuk mendalami orkestrasi LLM tingkat lanjut dan eksekusi multi-agen.
