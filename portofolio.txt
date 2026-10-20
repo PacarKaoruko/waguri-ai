@@ -1,41 +1,68 @@
 INFORMASI KANDIDAT:
 Nama: Haitamim Jahran Mahendra
-Peran: Mahasiswa Teknik Informatika (Semester 6) di UIN Syarif Hidayatullah Jakarta dengan IPK 3.47.
-Fokus Karir: Aspiring AI Engineer yang sangat antusias mendalami integrasi Artificial Intelligence ke dalam ekosistem Full Stack Development.
-Target Utama: Menjadi bagian dari Apple Developer Academy untuk berkolaborasi, belajar dari mentor industri, dan menerapkan pemikiran algoritmik dalam pengembangan teknologi Apple.
+Peran: Mahasiswa Teknik Informatika di UIN Syarif Hidayatullah Jakarta dengan IPK 3.54 dari 4.00.
+Fokus Karir: AI Engineering, dengan pengalaman membangun aplikasi RAG dan pipeline pemrosesan teks Arab. Mengembangkan alur anotasi LLM untuk proyek ALII serta memperluas kemampuan full-stack menggunakan Next.js, TypeScript, dan Supabase.
+Email: hjm.imi092005@gmail.com
+Telepon: (+62) 851-5849-2455
+LinkedIn: Haitamim JM
+Portofolio: https://imikeren.vercel.app
 
-SERTIFIKASI & PENGHARGAAN:
+PENDIDIKAN:
+Institusi: Universitas Islam Negeri Syarif Hidayatullah Jakarta.
+Program Studi: Teknik Informatika, Sarjana Teknik (S.T.).
+Periode: 2024 - 2027 (perkiraan kelulusan).
+IPK: 3.54 / 4.00.
+Mata Kuliah Relevan: Algoritma dan Struktur Data, Kecerdasan Buatan, Basis Data, dan Rekayasa Web.
+
+PENGALAMAN KERJA:
+Posisi: Data Engineer Intern.
+Institusi: ALII, UIN Jakarta.
+Periode: April 2026 - September 2026.
+Konteks: KKN di kampus dengan fokus pada data hadis dan anotasi LLM; proyek dilanjutkan setelah masa penempatan.
+Kontribusi:
+- Membangun proses ingestion dataset hadis berbahasa Arab berukuran 1 GB secara bertahap (chunked) menggunakan Python dan Pandas, serta mengonversi dump MySQL berisi terjemahan menjadi CSV melalui SQLite.
+- Mencocokkan 5.348 data sumber dengan 5.362 entri terjemahan menggunakan normalisasi teks Arab, TF-IDF, dan pencarian nearest neighbor berbasis cosine similarity. Mempertahankan 5.331 pasangan pada ambang kemiripan 80%.
+- Menghasilkan 5.331 halaman wiki Markdown berisi teks Arab, terjemahan bahasa Indonesia, metadata perawi, dan referensi silang.
+- Mengembangkan prototipe pipeline anotasi LLM untuk rantai perawi, relasi transmisi, entitas, topik, dan ringkasan. Menambahkan resolusi identitas perawi dalam aksara Arab dan Latin berdasarkan data referensi.
+- Menerapkan validasi struktur JSON dan referensi, checkpointing, serta penulisan JSONL yang dapat dilanjutkan untuk proses anotasi.
+
+SERTIFIKASI:
 - Belajar Machine Learning untuk Pemula (Dicoding, April 2026)
 - Memulai Pemrograman dengan Python (Dicoding, Maret 2026)
 - Belajar Dasar AI (Dicoding, Februari 2026)
-- Center for Language Development (UIN Syarif Hidayatullah Jakarta)
+- English Language Proficiency Certificate - Center for Language Development, UIN Jakarta.
 
 KEAHLIAN TEKNIS (HARD SKILLS):
-- Programming Logic: Python (Functions, Data Structures, OOP, Error Handling).
-- Web Development: HTML5, CSS3, Streamlit.
-- AI & Data Science: Machine Learning Fundamentals, K-NN, Decision Tree, Random Forest, K-Means Clustering, TF-IDF, Cosine Similarity, RAG (Retrieval-Augmented Generation), LangChain (LCEL), FAISS, Prompt Engineering, AI Safety (Guardrails).
+- AI & Data: RAG (Retrieval-Augmented Generation), LangChain LCEL, FAISS, HuggingFace embeddings, anotasi LLM, entity resolution, ETL, normalisasi teks, TF-IDF, Pandas, dan scikit-learn.
+- Bahasa Pemrograman & Web: Python, TypeScript, SQL, HTML, dan CSS.
+- Web & Tools: Streamlit, Next.js, React, Supabase, Zustand, Git, dan Linux shell.
 
-PROYEK UNGGULAN 1: NLP & Penggabungan Dataset Hadis (Data Engineering)
-Deskripsi: Membangun pipeline data untuk menggabungkan dataset sanad dan matan hadis Shahih Muslim berbahasa Arab.
-Tantangan: Mengatasi "ilusi kemiripan" akibat tag XML yang merusak skor akurasi (Cosine Similarity).
-Solusi: Menerapkan Data Cleansing tingkat lanjut (menghapus tag XML dan harakat), mengekstraksi fitur menggunakan TF-IDF berbasis karakter, dan mencocokkannya dengan algoritma K-Nearest Neighbors (K-NN).
+BAHASA:
+- Bahasa Indonesia: Penutur asli.
+- Bahasa Inggris: Percakapan (conversational).
 
-PROYEK UNGGULAN 2: Machine Learning Project (Dicoding - April 2026)
-Deskripsi: Melakukan pemrosesan dan analisis data nasabah untuk menemukan pola serta prediksi otomatis.
-Implementasi: Menerapkan algoritma K-Means Clustering untuk mengelompokkan karakteristik nasabah. Untuk klasifikasi target nasabah, membangun model menggunakan Decision Tree dan Random Forest beserta tuning parameter untuk memastikan akurasi prediksi.
+PENGALAMAN PROYEK 1: Waguri AI
+Jenis: Proyek pribadi.
+Periode: Januari 2026 - sekarang (sesuai CV).
+Deskripsi: Asisten portofolio interaktif berbasis RAG yang telah dibangun dan di-deploy menggunakan Streamlit dan LangChain LCEL, dengan Llama 3.3 melalui Groq API untuk menghasilkan respons.
+Implementasi:
+- Memuat dan membagi dokumen menjadi chunk, membuat embedding menggunakan HuggingFace all-MiniLM-L6-v2, serta menggunakan FAISS untuk retrieval agar jawaban mengacu pada isi portofolio.
+- Menambahkan batasan prompt untuk membatasi permintaan di luar topik dan upaya penggantian instruksi.
+- Menambahkan pemutaran audio menggunakan gTTS dan BytesIO.
+Teknologi Utama: Python, Streamlit, LangChain LCEL, HuggingFace embeddings, FAISS, Llama 3.3, Groq API, gTTS, dan BytesIO.
 
-PROYEK UNGGULAN 3: Konverter dan Penerjemah EPUB Arab (Kapita Selekta)
-Deskripsi: Membangun aplikasi web AI berbasis Streamlit untuk membedah, mengekstrak, dan menerjemahkan teks filologi dari dokumen .epub berbahasa Arab kuno menggunakan model Gemini 2.5-Flash secara real-time.
+PENGALAMAN PROYEK 2: Realtime Point of Sales
+Jenis: Proyek pribadi.
+Status: Dalam pengembangan.
+Deskripsi: Aplikasi web admin menggunakan Next.js App Router, React, TypeScript, dan Supabase.
+Implementasi:
+- Menerapkan validasi login, autentikasi Supabase, middleware sesi, dashboard admin, serta kueri profil dengan paginasi untuk pengelolaan pengguna.
+- Menambahkan pengelolaan state dengan Zustand, komponen UI Radix/shadcn yang dapat digunakan kembali, serta migrasi SQL untuk profil dengan trigger sinkronisasi Auth.
+Rencana Pengembangan: Fitur transaksi POS masih direncanakan dan belum diimplementasikan.
+Teknologi Utama: Next.js App Router, React, TypeScript, Supabase, Zustand, Radix/shadcn, dan SQL.
 
-PROYEK UNGGULAN 4: Movie Recommender System (Research Project)
-Deskripsi: Mengeksplorasi implementasi algoritma Content-Based Filtering menggunakan ekstraksi teks TF-IDF dan Cosine Similarity untuk memberikan saran film otomatis demi mengatasi fenomena "Choice Paralysis".
-
-PROYEK UNGGULAN 5: Waguri AI - Interactive Portfolio Assistant (AI Engineering & Security)
-Deskripsi: Mengembangkan agen virtual cerdas yang bertugas sebagai representasi interaktif dari dokumen portofolio, memecahkan masalah kebosanan pada format CV statis dengan memberikan pengalaman percakapan dua arah.
-Implementasi & Keamanan: Diarsiteki menggunakan standar industri modern RAG dengan LangChain Expression Language (LCEL). Sistem ini diperkuat dengan *Strict Security Guardrails* untuk menangkal eksploitasi *Prompt Injection*, menjamin AI selalu merespons secara profesional sesuai konteks. Dilengkapi modul Text-to-Speech untuk aksesibilitas.
-Teknologi Utama: Python, Streamlit, LangChain, FAISS Vector Database, Llama 3.3 (Groq API), gTTS.
-
-ROADMAP PENGEMBANGAN KE DEPAN (FUTURE WORK):
-Fokus Proyek Selanjutnya: Evolusi Waguri menjadi Otonom AI Agent.
-Visi: Mengembangkan Waguri dari sistem RAG (Retrieval-Augmented Generation) statis menjadi AI Agent yang memiliki otonomi seperti asisten virtual tingkat lanjut.
-Rencana Implementasi: Menggunakan arsitektur LangGraph dan fungsi pemanggilan alat (Tool Calling) agar Waguri dapat berinteraksi dengan API eksternal, melakukan pencarian web secara real-time, dan mengotomatisasi tugas-tugas produktivitas sehari-hari. Proyek ini bertujuan untuk mendalami orkestrasi LLM tingkat lanjut dan eksekusi multi-agen.
+PENGALAMAN PROYEK 3: Machine Learning
+Jenis: Proyek kursus Dicoding.
+Periode: April 2026.
+Deskripsi: Segmentasi dan klasifikasi pelanggan berdasarkan data transaksi.
+Implementasi: Membangun segmentasi pelanggan menggunakan K-Means serta melatih model klasifikasi Decision Tree dan Random Forest pada data transaksi.
